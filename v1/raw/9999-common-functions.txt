@@ -424,6 +424,17 @@ function gf_enable_certbot_nginx_site() {
   local cert_path="/etc/letsencrypt/live/$nginxdomain/fullchain.pem"
   local key_path="/etc/letsencrypt/live/$nginxdomain/privkey.pem"
 
+  # 確保 certbot 續訂後自動 reload nginx
+  if [[ ! -f /etc/letsencrypt/renewal-hooks/deploy/reload-nginx.sh ]]; then
+    mkdir -p /etc/letsencrypt/renewal-hooks/deploy
+    cat > /etc/letsencrypt/renewal-hooks/deploy/reload-nginx.sh << 'HOOK'
+#!/bin/bash
+systemctl reload nginx
+HOOK
+    chmod +x /etc/letsencrypt/renewal-hooks/deploy/reload-nginx.sh
+    echo "✅ 已建立 certbot deploy hook（續訂後自動 reload nginx）"
+  fi
+
   # 取得目前主機的 public IP
   local public_ip=$(curl -s https://1.1.1.1/cdn-cgi/trace | grep ip= | cut -d= -f2)
   echo "🌐 本機 Public IP 為：$public_ip"
