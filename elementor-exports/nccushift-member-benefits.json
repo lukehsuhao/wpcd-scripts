@@ -1,0 +1,771 @@
+[
+  {
+    "id": "hero001",
+    "elType": "container",
+    "settings": {
+      "layout": "boxed",
+      "content_width": "boxed",
+      "min_height": {"unit": "vh", "size": 50},
+      "flex_direction": "column",
+      "flex_justify_content": "center",
+      "flex_align_items": "center",
+      "background_background": "classic",
+      "background_color": "#1A1A2E",
+      "padding": {"unit": "px", "top": "100", "right": "30", "bottom": "100", "left": "30", "isLinked": false},
+      "shape_divider_bottom": "curve",
+      "shape_divider_bottom_negative": "yes",
+      "shape_divider_bottom_color": "#FFFFFF"
+    },
+    "elements": [
+      {
+        "id": "hero002",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_align_items": "center",
+          "flex_gap": {"unit": "px", "size": 20}
+        },
+        "elements": [
+          {
+            "id": "hero003",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "會員權益",
+              "header_size": "h1",
+              "align": "center",
+              "title_color": "#FFFFFF",
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 48},
+              "typography_font_weight": "700",
+              "_css_classes": "animate-blur"
+            }
+          },
+          {
+            "id": "hero004",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"text-align:center;\">成為 SHIFT 學員，不只是一堂課——而是開啟一條完整的職涯成長路徑。<br>從課程優惠、產業交流、定期講座到履歷曝光，我們為你打造全方位的學習與發展支持系統。</p>",
+              "text_color": "#FFFFFFCC",
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 17},
+              "typography_line_height": {"unit": "em", "size": 1.8},
+              "_css_classes": "animate-blur"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "overview01",
+    "elType": "container",
+    "settings": {
+      "layout": "boxed",
+      "content_width": "boxed",
+      "background_background": "classic",
+      "background_color": "#FFFFFF",
+      "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}
+    },
+    "elements": [
+      {
+        "id": "overview02",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_align_items": "center",
+          "flex_gap": {"unit": "px", "size": 15},
+          "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "50", "left": "0", "isLinked": false}
+        },
+        "elements": [
+          {
+            "id": "overview03",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "／ 四大專屬權益 ／",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#1A1A2E",
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 18},
+              "typography_font_weight": "500",
+              "typography_letter_spacing": {"unit": "px", "size": 2}
+            }
+          },
+          {
+            "id": "overview04",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "你的學習，不只是一堂課\n而是一條完整的成長路徑",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#1A1A2E",
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 32},
+              "typography_font_weight": "700",
+              "typography_line_height": {"unit": "em", "size": 1.5}
+            }
+          }
+        ]
+      },
+      {
+        "id": "cards01",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_wrap": "wrap",
+          "flex_gap": {"unit": "px", "size": 25},
+          "flex_justify_content": "center"
+        },
+        "elements": [
+          {
+            "id": "card01",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "width": {"unit": "%", "size": 48},
+              "width_tablet": {"unit": "%", "size": 100},
+              "min_height": {"unit": "px", "size": 280},
+              "flex_direction": "column",
+              "flex_justify_content": "flex-start",
+              "padding": {"unit": "px", "top": "40", "right": "35", "bottom": "40", "left": "35", "isLinked": false},
+              "background_background": "classic",
+              "background_color": "#F8F9FC",
+              "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+              "animation": "fadeIn",
+              "animation_delay": 100
+            },
+            "elements": [
+              {
+                "id": "card01a",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "01",
+                  "header_size": "h3",
+                  "title_color": "#6C63FF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 42},
+                  "typography_font_weight": "800"
+                }
+              },
+              {
+                "id": "card01b",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "課程優惠",
+                  "header_size": "h3",
+                  "title_color": "#1A1A2E",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 24},
+                  "typography_font_weight": "700"
+                }
+              },
+              {
+                "id": "card01c",
+                "elType": "widget",
+                "widgetType": "icon-list",
+                "settings": {
+                  "icon_list": [
+                    {
+                      "text": "未來報名政大或 Lancaster 進階課程（如創價班）可享學費折抵",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il01"
+                    },
+                    {
+                      "text": "目前支付的課程費用可作為未來進階課程的折抵（Deposit 概念）",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il02"
+                    },
+                    {
+                      "text": "這是一條學習路徑（Path），不只是單一課程",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il03"
+                    }
+                  ],
+                  "icon_color": "#6C63FF",
+                  "text_color": "#4A4A5A",
+                  "text_indent": {"unit": "px", "size": 10},
+                  "icon_size": {"unit": "px", "size": 14},
+                  "space_between": {"unit": "px", "size": 12},
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 15},
+                  "typography_line_height": {"unit": "em", "size": 1.6}
+                }
+              }
+            ]
+          },
+          {
+            "id": "card02",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "width": {"unit": "%", "size": 48},
+              "width_tablet": {"unit": "%", "size": 100},
+              "min_height": {"unit": "px", "size": 280},
+              "flex_direction": "column",
+              "flex_justify_content": "flex-start",
+              "padding": {"unit": "px", "top": "40", "right": "35", "bottom": "40", "left": "35", "isLinked": false},
+              "background_background": "classic",
+              "background_color": "#F8F9FC",
+              "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+              "animation": "fadeIn",
+              "animation_delay": 200
+            },
+            "elements": [
+              {
+                "id": "card02a",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "02",
+                  "header_size": "h3",
+                  "title_color": "#6C63FF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 42},
+                  "typography_font_weight": "800"
+                }
+              },
+              {
+                "id": "card02b",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "產業交流活動",
+                  "header_size": "h3",
+                  "title_color": "#1A1A2E",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 24},
+                  "typography_font_weight": "700"
+                }
+              },
+              {
+                "id": "card02c",
+                "elType": "widget",
+                "widgetType": "icon-list",
+                "settings": {
+                  "icon_list": [
+                    {
+                      "text": "邀請產業大佬、教授進行深度分享",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il04"
+                    },
+                    {
+                      "text": "線下活動：預計每半年至一年舉辦一次",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il05"
+                    },
+                    {
+                      "text": "學員可參與高品質產業交流，拓展人脈與視野",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il06"
+                    }
+                  ],
+                  "icon_color": "#6C63FF",
+                  "text_color": "#4A4A5A",
+                  "text_indent": {"unit": "px", "size": 10},
+                  "icon_size": {"unit": "px", "size": 14},
+                  "space_between": {"unit": "px", "size": 12},
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 15},
+                  "typography_line_height": {"unit": "em", "size": 1.6}
+                }
+              }
+            ]
+          },
+          {
+            "id": "card03",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "width": {"unit": "%", "size": 48},
+              "width_tablet": {"unit": "%", "size": 100},
+              "min_height": {"unit": "px", "size": 280},
+              "flex_direction": "column",
+              "flex_justify_content": "flex-start",
+              "padding": {"unit": "px", "top": "40", "right": "35", "bottom": "40", "left": "35", "isLinked": false},
+              "background_background": "classic",
+              "background_color": "#F8F9FC",
+              "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+              "animation": "fadeIn",
+              "animation_delay": 300
+            },
+            "elements": [
+              {
+                "id": "card03a",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "03",
+                  "header_size": "h3",
+                  "title_color": "#6C63FF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 42},
+                  "typography_font_weight": "800"
+                }
+              },
+              {
+                "id": "card03b",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "定期講座與資訊推播",
+                  "header_size": "h3",
+                  "title_color": "#1A1A2E",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 24},
+                  "typography_font_weight": "700"
+                }
+              },
+              {
+                "id": "card03c",
+                "elType": "widget",
+                "widgetType": "icon-list",
+                "settings": {
+                  "icon_list": [
+                    {
+                      "text": "定期舉辦線上分享（每季一次）",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il07"
+                    },
+                    {
+                      "text": "透過 Telegram 推播最新產業資訊",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il08"
+                    },
+                    {
+                      "text": "職缺訊息即時推播，掌握職涯機會",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il09"
+                    }
+                  ],
+                  "icon_color": "#6C63FF",
+                  "text_color": "#4A4A5A",
+                  "text_indent": {"unit": "px", "size": 10},
+                  "icon_size": {"unit": "px", "size": 14},
+                  "space_between": {"unit": "px", "size": 12},
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 15},
+                  "typography_line_height": {"unit": "em", "size": 1.6}
+                }
+              }
+            ]
+          },
+          {
+            "id": "card04",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "width": {"unit": "%", "size": 48},
+              "width_tablet": {"unit": "%", "size": 100},
+              "min_height": {"unit": "px", "size": 280},
+              "flex_direction": "column",
+              "flex_justify_content": "flex-start",
+              "padding": {"unit": "px", "top": "40", "right": "35", "bottom": "40", "left": "35", "isLinked": false},
+              "background_background": "classic",
+              "background_color": "#F8F9FC",
+              "border_radius": {"unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true},
+              "animation": "fadeIn",
+              "animation_delay": 400
+            },
+            "elements": [
+              {
+                "id": "card04a",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "04",
+                  "header_size": "h3",
+                  "title_color": "#6C63FF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 42},
+                  "typography_font_weight": "800"
+                }
+              },
+              {
+                "id": "card04b",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "網站曝光與履歷媒合",
+                  "header_size": "h3",
+                  "title_color": "#1A1A2E",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 24},
+                  "typography_font_weight": "700"
+                }
+              },
+              {
+                "id": "card04c",
+                "elType": "widget",
+                "widgetType": "icon-list",
+                "settings": {
+                  "icon_list": [
+                    {
+                      "text": "學員資訊可在 SHIFT 網站上曝光展示",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il10"
+                    },
+                    {
+                      "text": "履歷媒合服務，連結企業與人才",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il11"
+                    },
+                    {
+                      "text": "打造個人品牌，提升職場能見度",
+                      "selected_icon": {"value": "fas fa-check", "library": "fa-solid"},
+                      "_id": "il12"
+                    }
+                  ],
+                  "icon_color": "#6C63FF",
+                  "text_color": "#4A4A5A",
+                  "text_indent": {"unit": "px", "size": 10},
+                  "icon_size": {"unit": "px", "size": 14},
+                  "space_between": {"unit": "px", "size": 12},
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 15},
+                  "typography_line_height": {"unit": "em", "size": 1.6}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "path001",
+    "elType": "container",
+    "settings": {
+      "layout": "boxed",
+      "content_width": "boxed",
+      "background_background": "gradient",
+      "background_color": "#1A1A2E",
+      "background_color_b": "#16213E",
+      "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}
+    },
+    "elements": [
+      {
+        "id": "path002",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_align_items": "center",
+          "flex_gap": {"unit": "px", "size": 15},
+          "margin": {"unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false}
+        },
+        "elements": [
+          {
+            "id": "path003",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "／ 你的學習路徑 ／",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#FFFFFF99",
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 18},
+              "typography_font_weight": "500",
+              "typography_letter_spacing": {"unit": "px", "size": 2}
+            }
+          },
+          {
+            "id": "path004",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "從免費課程開始\n一路延伸到進階實戰",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#FFFFFF",
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 32},
+              "typography_font_weight": "700",
+              "typography_line_height": {"unit": "em", "size": 1.5},
+              "_css_classes": "animate-blur"
+            }
+          },
+          {
+            "id": "path005",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"text-align:center;\">SHIFT 的課程設計採用 Deposit 概念：你現在支付的費用，未來可折抵進階課程學費。<br>這不是單一課程消費，而是對你整條學習路徑的投資。</p>",
+              "text_color": "#FFFFFFBB",
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 16},
+              "typography_line_height": {"unit": "em", "size": 1.8}
+            }
+          }
+        ]
+      },
+      {
+        "id": "steps01",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_wrap": "wrap",
+          "flex_gap": {"unit": "px", "size": 0},
+          "flex_justify_content": "center",
+          "flex_align_items": "stretch"
+        },
+        "elements": [
+          {
+            "id": "step01",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "width": {"unit": "%", "size": 33},
+              "width_tablet": {"unit": "%", "size": 100},
+              "flex_direction": "column",
+              "flex_align_items": "center",
+              "padding": {"unit": "px", "top": "30", "right": "20", "bottom": "30", "left": "20", "isLinked": false},
+              "animation": "fadeIn",
+              "animation_delay": 100
+            },
+            "elements": [
+              {
+                "id": "step01a",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "STEP 1",
+                  "header_size": "h4",
+                  "align": "center",
+                  "title_color": "#6C63FF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 14},
+                  "typography_font_weight": "700",
+                  "typography_letter_spacing": {"unit": "px", "size": 3}
+                }
+              },
+              {
+                "id": "step01b",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "免費培訓課程",
+                  "header_size": "h3",
+                  "align": "center",
+                  "title_color": "#FFFFFF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 22},
+                  "typography_font_weight": "700"
+                }
+              },
+              {
+                "id": "step01c",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style=\"text-align:center;\">踏出第一步，免費體驗 SHIFT 課程品質與教學方式</p>",
+                  "text_color": "#FFFFFF99",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 15}
+                }
+              }
+            ]
+          },
+          {
+            "id": "step02",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "width": {"unit": "%", "size": 33},
+              "width_tablet": {"unit": "%", "size": 100},
+              "flex_direction": "column",
+              "flex_align_items": "center",
+              "padding": {"unit": "px", "top": "30", "right": "20", "bottom": "30", "left": "20", "isLinked": false},
+              "animation": "fadeIn",
+              "animation_delay": 200
+            },
+            "elements": [
+              {
+                "id": "step02a",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "STEP 2",
+                  "header_size": "h4",
+                  "align": "center",
+                  "title_color": "#6C63FF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 14},
+                  "typography_font_weight": "700",
+                  "typography_letter_spacing": {"unit": "px", "size": 3}
+                }
+              },
+              {
+                "id": "step02b",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "碳管理實戰班",
+                  "header_size": "h3",
+                  "align": "center",
+                  "title_color": "#FFFFFF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 22},
+                  "typography_font_weight": "700"
+                }
+              },
+              {
+                "id": "step02c",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style=\"text-align:center;\">政大認證的付費進階課程，費用可折抵未來創價班學費</p>",
+                  "text_color": "#FFFFFF99",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 15}
+                }
+              }
+            ]
+          },
+          {
+            "id": "step03",
+            "elType": "container",
+            "settings": {
+              "content_width": "full",
+              "width": {"unit": "%", "size": 33},
+              "width_tablet": {"unit": "%", "size": 100},
+              "flex_direction": "column",
+              "flex_align_items": "center",
+              "padding": {"unit": "px", "top": "30", "right": "20", "bottom": "30", "left": "20", "isLinked": false},
+              "animation": "fadeIn",
+              "animation_delay": 300
+            },
+            "elements": [
+              {
+                "id": "step03a",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "STEP 3",
+                  "header_size": "h4",
+                  "align": "center",
+                  "title_color": "#6C63FF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 14},
+                  "typography_font_weight": "700",
+                  "typography_letter_spacing": {"unit": "px", "size": 3}
+                }
+              },
+              {
+                "id": "step03b",
+                "elType": "widget",
+                "widgetType": "heading",
+                "settings": {
+                  "title": "LANCASTER 菁英創價計畫",
+                  "header_size": "h3",
+                  "align": "center",
+                  "title_color": "#FFFFFF",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 22},
+                  "typography_font_weight": "700"
+                }
+              },
+              {
+                "id": "step03c",
+                "elType": "widget",
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p style=\"text-align:center;\">最高階的菁英計畫，享先前課程費用全額折抵優惠</p>",
+                  "text_color": "#FFFFFF99",
+                  "typography_typography": "custom",
+                  "typography_font_size": {"unit": "px", "size": 15}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cta001",
+    "elType": "container",
+    "settings": {
+      "layout": "boxed",
+      "content_width": "boxed",
+      "background_background": "classic",
+      "background_color": "#FFFFFF",
+      "padding": {"unit": "px", "top": "80", "right": "30", "bottom": "80", "left": "30", "isLinked": false}
+    },
+    "elements": [
+      {
+        "id": "cta002",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "flex_align_items": "center",
+          "flex_gap": {"unit": "px", "size": 25}
+        },
+        "elements": [
+          {
+            "id": "cta003",
+            "elType": "widget",
+            "widgetType": "heading",
+            "settings": {
+              "title": "準備好開始你的學習旅程了嗎？",
+              "header_size": "h2",
+              "align": "center",
+              "title_color": "#1A1A2E",
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 32},
+              "typography_font_weight": "700",
+              "_css_classes": "animate-blur"
+            }
+          },
+          {
+            "id": "cta004",
+            "elType": "widget",
+            "widgetType": "text-editor",
+            "settings": {
+              "editor": "<p style=\"text-align:center;\">立即報名免費課程，踏出成為碳管理人才的第一步。</p>",
+              "text_color": "#4A4A5A",
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 17},
+              "typography_line_height": {"unit": "em", "size": 1.8}
+            }
+          },
+          {
+            "id": "cta005",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "報名免費課程",
+              "link": {"url": "https://nccushift.com/%e9%a6%96%e9%a0%81/", "is_external": false, "nofollow": false},
+              "align": "center",
+              "size": "lg",
+              "icon": {"value": "fas fa-arrow-circle-right", "library": "fa-solid"},
+              "icon_align": "right",
+              "button_type": "",
+              "background_color": "#6C63FF",
+              "button_text_color": "#FFFFFF",
+              "border_radius": {"unit": "px", "top": "30", "right": "30", "bottom": "30", "left": "30", "isLinked": true},
+              "text_padding": {"unit": "px", "top": "15", "right": "40", "bottom": "15", "left": "40", "isLinked": false},
+              "typography_typography": "custom",
+              "typography_font_size": {"unit": "px", "size": 17},
+              "typography_font_weight": "600",
+              "hover_color": "#FFFFFF",
+              "button_background_hover_color": "#5A52E0",
+              "_css_classes": "animate-fade-up"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
