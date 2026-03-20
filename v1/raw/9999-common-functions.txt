@@ -436,7 +436,7 @@ HOOK
   fi
 
   # 取得目前主機的 public IP
-  local public_ip=$(curl -s https://1.1.1.1/cdn-cgi/trace | grep ip= | cut -d= -f2)
+  local public_ip=$(curl -s --max-time 10 https://checkip.amazonaws.com | tr -d '[:space:]')
   echo "🌐 本機 Public IP 為：$public_ip"
 
   local server_names=()
